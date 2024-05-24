@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "Enter storage account name": {
+            "value": "armstorage123"
+        },
+        "Enter name of PublicIp": {
+            "value": "armpublicip"
+        },
+        "Enter name of nsg": {
+            "value": "armnsg"
+        },
+        "Enter name of virtual network": {
+            "value": "armvn"
+        },
+        "Enter name of virtual network subnet": {
+            "value": "armvnsubnet"
+        },
+        "Enter name of network interface card": {
+            "value": "armnic"
+        },
+        "Enter name of IpConfig": {
+            "value": "armipconfig"
+        },
+        "Enter name of Virtual Machine": {
+            "value": "armvm"
+        },
+        "Enter name of osprofile": {
+            "value": "armosprofile"
+        },
+        "Enter name of OsDisk": {
+            "value": "armosdisk"
+        }
+    }
+}
